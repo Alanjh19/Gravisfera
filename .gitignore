@@ -1,0 +1,31 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE and local machine configuration
+.idea/
+*.iml
+android/local.properties
+android/.gradle/
+linux/flutter/ephemeral/
+
+# Local test outputs, captures, and profiling data
+*.log
+*.pid
+*.rgba
+/*.json
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.py
+!/serve_web.py
+
+# Generated delivery binaries; keep the report and selected screenshots
+/entrega/*.apk
+/entrega/*.aab
+/entrega/*.zip
